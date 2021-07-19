@@ -1,4 +1,6 @@
-export async function handler(event) {
+const fetch = require('node-fetch');
+
+exports.handler = async function (event) {
     const body = JSON.parse(event.body);
 
     const genre = body.genre;
