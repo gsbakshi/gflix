@@ -1,0 +1,15 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Digitalt
+font link: http://www.glukfonts.pl/font.php?font=Digitalt
+font author: Gluk Fonts
+font author site: http://www.glukfonts.pl/
+
+
+
+fontColor: {"hex":"#ee031b"}
+bgColor: {"hex":"#080707"}
+
+
+      
