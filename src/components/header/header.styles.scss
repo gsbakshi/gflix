@@ -2,11 +2,10 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  background-color: inherit;
+  background-color: #08070777;
   padding: 20px 40px;
-  border-bottom: solid 1px #60030059;
-  margin-bottom: 25px;
-  position: sticky;
+  border-bottom: solid 1px #60030023;
+  position: fixed;
   top: 0;
   z-index: 99;
 
@@ -36,12 +35,7 @@
 
       &:hover{
         color: #600300;
-      }
-      
-      // @media screen and (max-width: 800px) {
-      //   font-size: 10px;
-      //   font-weight: 600;
-      // }
+      } 
     }
   }
 
