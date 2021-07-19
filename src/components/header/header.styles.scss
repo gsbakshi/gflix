@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: inherit;
+  padding: 20px 40px;
+  border-bottom: solid 1px #60030059;
+  margin-bottom: 25px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+
+  @media screen and (max-width: 800px) {
+    padding: 16px 20px;
+    justify-content: space-between;
+  }
+  
+  .logo-container {
+    width: 5%;
+
+    @media screen and (max-width: 800px) {
+      width: 12%;
+    }
+  }
+  
+  .options {
+    height: 100%;
+    padding-left: 40px;
+    
+    .option {
+      color: rgba(245, 245, 245, 0.8);
+      padding: 0px 15px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+
+      &:hover{
+        color: #600300;
+      }
+      
+      // @media screen and (max-width: 800px) {
+      //   font-size: 10px;
+      //   font-weight: 600;
+      // }
+    }
+  }
+
+}
