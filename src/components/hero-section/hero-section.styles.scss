@@ -1,0 +1,100 @@
+.hero-container {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    
+    
+    video {
+        width: 100%;
+        object-fit: cover;
+        
+        @media screen and (min-width: 1200px) {
+          height: 70vh;
+        }
+    }
+    
+    .info-section-container {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(
+            to top,
+            #080707 0%,
+            #08070756 20%,
+            #0807078f 50%,
+            #08070796 70%,
+            #0807075e 80%,
+            #08070721 90%,
+            #08070700 100%,
+        );
+        
+        .info-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 4em 2em;
+            width: 70%;
+
+            h2 {
+                text-align: left;
+                font-weight: 900;
+            }
+            
+            span {
+                font-size: 14px;
+                font-weight: 500;
+                text-align: left;
+                color: rgba(255, 255, 255, 0.404);
+                margin-bottom: 1em;
+            }
+
+            .button-section {
+                display: flex;
+
+                .button {
+                    border-radius: 4px;
+                    padding: 10px 24px;
+                    margin-left: 20px;
+                    background-color: #600300;
+                    font-size: 12px;
+                    font-weight: 700;
+                    color: rgba(255, 255, 255, 0.404);
+
+                    &:nth-child(1) {
+                        margin-left: 0;
+                    }
+                    
+                    &.play {
+                        background-color: rgba(255, 255, 255, 0.7);
+                        
+                        &,.fa-play {
+                            color: #080707a8;
+                        }
+                    }
+
+                    
+                    &:hover {
+                        cursor: pointer;
+
+                        &.play {
+                            background-color: rgba(255, 255, 255, 0.9);
+                            color: #080707cb;
+                        }
+
+                        &.more {
+                            &,.fa-info-circle {
+                                color: #EE031B;
+                            }
+                        }
+                    }
+                    .fas {
+                        margin-right: 8px;
+                    }
+                }
+            }
+        }
+    }
+}
