@@ -8,23 +8,34 @@
   position: fixed;
   top: 0;
   z-index: 99;
+  width: 100%;
 
   @media screen and (max-width: 800px) {
-    padding: 16px 20px;
+    padding: 16px 0;
     justify-content: space-between;
   }
   
   .logo-container {
     width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    @media screen and (max-width: 1200px) {
+      width: 6%;
+      padding-left: 20px;
+    }
+    
     @media screen and (max-width: 800px) {
       width: 12%;
+      padding-left: 20px;
     }
   }
   
   .options {
     height: 100%;
     padding-left: 40px;
+    display: flex;
     
     .option {
       color: rgba(245, 245, 245, 0.8);
@@ -36,6 +47,14 @@
       &:hover{
         color: #600300;
       } 
+    }
+
+    @media screen and (max-width: 1200px) {
+      padding-right: 20px;
+    }
+    
+    @media screen and (max-width: 800px) {
+      padding-right: 20px;
     }
   }
 
