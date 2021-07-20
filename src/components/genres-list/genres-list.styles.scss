@@ -1,0 +1,10 @@
+.genres-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    .page-end {
+      height: 16em;
+    }
+}
