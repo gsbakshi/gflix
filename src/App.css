@@ -3,6 +3,7 @@
   font-family: 'Montserrat', sans-serif;
   color: #EE031B;
   width: 100vw;
+  display: block;
 }
 
 a{
