@@ -1,0 +1,65 @@
+$border-radius: 4px;
+
+.card-container { 
+    width: 100%;
+    border-radius: $border-radius;
+    transition: transform 500ms;
+    margin: 0 0.6em;
+    height: 8em;
+
+    &:focus,
+    &:hover {
+        transform: scale(1.5);
+        z-index: 2;
+        background-color: #212121;
+        box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.5),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+            0 100px 80px rgba(0, 0, 0, 0.5);
+            
+        &:nth-child(1) {
+        transform: scale(1.5) translateX(15%);
+        }
+
+        &:last-child {
+        transform: scale(1.5) translateX(-15%);
+        }
+    }
+
+    & .card {
+        border-radius: $border-radius;
+        position: relative;
+        object-fit: cover;
+        display: flex;
+        flex-direction: column;
+        
+        & video {
+            border-radius: $border-radius;
+            object-fit: cover;
+            width: 100%;
+            height: 8em;
+        }
+
+        & .info-box {
+            position: absolute;
+            width: 100%;
+            z-index: 5;
+            bottom: 0;
+            background: linear-gradient(
+                to top,
+                #080707 0%, 
+                #080707c0 70%,
+                #08070763 90%,
+                #08070700 100%,
+            );
+            
+            h5 {
+                text-align: left;
+                font-weight: 900;
+                padding: 0.6em 1em;
+                margin: 0;
+            }
+        }
+    }
+
+}
