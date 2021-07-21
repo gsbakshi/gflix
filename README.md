@@ -12,7 +12,7 @@ A simple ReactJS Netflix homepage clone running on Astra DB that leverages a Gra
 1. [Objectives](#objectives)
 2. [Features](#💎-features)
 
-## :dart: ## Objectives
+## :dart: Objectives
 * Deploy a Netflix clone to production
 * Learn **GraphQL API** and how to use it with a database to create the tables and navigate the data.
 * Learn about **paging** and infinite scrolling in **Web UI**
