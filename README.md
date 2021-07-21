@@ -4,7 +4,7 @@
 A simple ReactJS Netflix homepage clone running on Astra DB that leverages a GraphQL API with paging and infinite scrolling.
 <!--- ENDEXCLUDE --->
 
-![image](https://github.com/gsbakshi/todos-w-astra/blob/main/images/Screenshot%202021-07-12%20at%203.57-1.png)
+![image](https://github.com/gsbakshi/gflix/blob/main/images/Screenshot%202021-07-21%20at%2010.00.png)
 
 
 ## Table of contents
@@ -21,7 +21,10 @@ A simple ReactJS Netflix homepage clone running on Astra DB that leverages a Gra
 
 [🏠 Back to Table of Contents](#table-of-contents)
 
-![image](https://github.com/gsbakshi/todos-w-astra/blob/main/images/Screenshot%202021-07-12%20at%203.57.png)
+![image](https://github.com/gsbakshi/gflix/blob/main/images/Screenshot%202021-07-21%20at%2010.00-1.png)
+
+
+![image](https://github.com/gsbakshi/gflix/blob/main/images/Screenshot%202021-07-21%20at%2010.01.png)
 
 
 [🏠 Back to Table of Contents](#table-of-contents)
@@ -30,4 +33,3 @@ A simple ReactJS Netflix homepage clone running on Astra DB that leverages a Gra
 ### Things to Note:
  - Not an actual **Streaming Service**
 <!--- ENDEXCLUDE --->
-
