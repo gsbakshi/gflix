@@ -1,35 +1,15 @@
-<!--- STARTEXCLUDE --->
-# GFLIX - A Netflix Clone 
+# Test branch
 
-A simple ReactJS Netflix homepage clone running on Astra DB that leverages a GraphQL API with paging and infinite scrolling.
-<!--- ENDEXCLUDE --->
+*This is the test branch where all the changes are tried and tested out before being pushed to main and then production.*
 
-![image](https://github.com/gsbakshi/gflix/blob/main/images/Screenshot%202021-07-21%20at%2010.00.png)
+## :bangbang: Fixed Issues
 
 
-## Table of contents
-
-1. [Objectives](#objectives)
-2. [Features](#💎-features)
-
-## :dart: Objectives
-* Deploy a Netflix clone to production
-* Learn **GraphQL API** and how to use it with a database to create the tables and navigate the data.
-* Learn about **paging** and infinite scrolling in **Web UI**
-* Leverage Netlify and DataStax Astra DB
+## :warning: On Going Issues
 
 
-[🏠 Back to Table of Contents](#table-of-contents)
+## :cyclone: Planned Updates/Features
+* Bug Fixing
 
-![image](https://github.com/gsbakshi/gflix/blob/main/images/Screenshot%202021-07-21%20at%2010.00-1.png)
-
-
-![image](https://github.com/gsbakshi/gflix/blob/main/images/Screenshot%202021-07-21%20at%2010.01.png)
-
-
-[🏠 Back to Table of Contents](#table-of-contents)
-
-
-### Things to Note:
- - Not an actual **Streaming Service**
-<!--- ENDEXCLUDE --->
+### Final Notes
+If there's any suggestion or a feature request, create an issue ticket.
