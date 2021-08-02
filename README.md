@@ -1,9 +1,9 @@
 <!--- STARTEXCLUDE --->
+![image](https://github.com/gsbakshi/gflix/blob/main/src/assets/logo/cover.png)
 # GFLIX - A Netflix Clone 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/86c996a4-ad61-400e-a2e0-9177026e20cc/deploy-status)](https://app.netlify.com/sites/g-flix/deploys)
 
-![image](https://github.com/gsbakshi/gflix/blob/main/src/assets/logo/cover.png)
 
 A simple ReactJS Netflix homepage clone running on Astra DB that leverages a GraphQL API with paging and infinite scrolling.
 <!--- ENDEXCLUDE --->
